@@ -5,11 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+
     <style>
       .container {
-        width:1200px;
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: antiquewhite;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 5px #888888;
+      }
+
+      .flex-container > div {
+        background-color: #f1f1f1;
+        width: 200px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        padding: 10px;
+      }
+
+      .inline {
+        padding: 20px;
+        margin-left: 50px;
+      }
+      .header {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin: 0px;
+      }
+
+      p {
+        margin-top: 50px;
+      }
+    </style>
+
+    <!-- <style>
+      .container {
+        width: 1290px;
         margin: 20px;
         background-color: antiquewhite;
+        display: inline-block;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px #888888;
       }
       .inline {
         width: 30%;
@@ -18,46 +60,49 @@
         margin-left: 10px;
       }
 
-      .header{
+      .header {
         text-align: center;
         background-color: black;
         color: white;
         padding: 10px;
+        margin: 0px;
+      }
+      a {
+        color: red;
       }
 
-      p{
+      p {
         margin-top: 50px;
-
       }
-    </style>
+    </style> -->
   </head>
 
   <body>
+    <h1 class="header">Student Bio</h1>
     <div class="container">
-      <h1 class="header">Student Bio</h1>
       <div class="inline">
         <h3>Raj Kumar Shahu</h3>
         <img src="raj-photo.jpg" alt="raj-photo" width="200px" />
       </div>
 
-        <p class="inline">
-          Currently, I am enrolled in UofT Coding Bootcamp which provides
-          extensive training in fullstack webdevelopment technology. I recently
-          graduated from George Brown College where I obtained various forms of
-          computer programming languages, as well as in the applied and
-          theoretical aspects of computer hardware and networking. I have
-          thoroughly benefitted from the instructive challenges that George
-          Brown’s School of Computer Technology has afforded. More importantly,
-          through the combination of training at George Brown’s state-of-the-art
-          computer laboratories, I have acquired hands-on experience in all
-          aspects of computer programming including, professional
-          communications, administrative duties and computer hardware and
-          networking. Throughout my practical and academic courses at George
-          Brown, I consistently displayed both an aptitude and an enthusiasm for
-          the task at hand.
-        </p>
-
-
+      <p class="inline">
+        Currently, I am enrolled in UofT Coding Bootcamp which provides
+        extensive training in fullstack webdevelopment technology. I recently
+        graduated from George Brown College where I obtained various forms of
+        computer programming languages, as well as in the applied and
+        theoretical aspects of computer hardware and networking. I have
+        thoroughly benefitted from the instructive challenges that George
+        Brown’s School of Computer Technology has afforded. More importantly,
+        through the combination of training at George Brown’s state-of-the-art
+        computer laboratories, I have acquired hands-on experience in all
+        aspects of computer programming including, professional communications,
+        administrative duties and computer hardware and networking. Throughout
+        my practical and academic courses at George Brown, I consistently
+        displayed both an aptitude and an enthusiasm for the task at hand.
+        <a href="https://github.com/rajkumarshahu"
+          >Click here for my GitHub Page.</a
+        >
+      </p>
       <div class="inline">
         <h3>Contact Info</h3>
         <ul>
